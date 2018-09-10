@@ -1,12 +1,8 @@
 package com.affable.consumer;
 
-import com.affable.connector.CassandraConnector;
 import com.affable.connector.InfluxConnector;
 import com.affable.connector.RedisConnector;
 import com.affable.pojo.User;
-import com.affable.producer.RecordProducer;
-import com.datastax.driver.core.PreparedStatement;
-import com.datastax.driver.core.Session;
 import com.google.gson.Gson;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -14,8 +10,6 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.influxdb.dto.BatchPoints;
 import org.influxdb.dto.Point;
 
-import java.time.Duration;
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
