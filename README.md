@@ -58,7 +58,7 @@ Macbook Air
    
    `Ranking and Influx: 1300 writes/sec`
    
-3. Making cassandra writes as asynchronous, writing performance was increased by upto 33 percent.
+3. Making cassandra writes as asynchronous, increased writing performance by 33 percent.
 
 ## Scaling
 
