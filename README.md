@@ -36,7 +36,7 @@ Install/configure InfluxDB and create database, retention policy
 
 ## Architecture
 
-Please read the WIKI for this part of details
+Please read the [WIKI](https://github.com/mrkranky/affable/wiki) for this part of details
 
 ## Benchmarks
 Benchmarking on -
@@ -69,4 +69,4 @@ Ideally the number of topic partitions should be equal to number of consumer ins
 ##### Redis
 To scale out redis horizontally, we can have keys sharding by using hash of hash.
 
-To further enhance the speed of ranking and averaging influencer's follower through Redis, we can follow batching approach. With this way, we would only be doing ranking/averaging only after 'n' of updates.  
+To further increase the speed of ranking/averaging through Redis, we can follow batching approach. With this way, we would only be doing ranking/averaging only after 'n' updates.  
