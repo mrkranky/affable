@@ -568,7 +568,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536609616519" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536609768714" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -586,7 +586,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DBConsumer">
+  <component name="RunManager" selected="Application.AnalyticsConsumer">
     <configuration name="AnalyticsConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.affable.consumer.AnalyticsConsumer" />
       <module name="affable" />
@@ -633,8 +633,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DBConsumer" />
         <item itemvalue="Application.AnalyticsConsumer" />
+        <item itemvalue="Application.DBConsumer" />
         <item itemvalue="Application.MockstagramRequester" />
       </list>
     </recent_temporary>
