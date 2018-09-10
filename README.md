@@ -65,3 +65,8 @@ Macbook Air
 Increasing consumer instances, increases computing capabilities of both the consumers.
 
 Ideally the number of topic partitions should be equal to number of consumer instances and both can scale pretty easily.
+
+##### Redis
+To scale out redis horizontally, we can have keys sharding by using hash of hash.
+
+To further enhance the speed of ranking and averaging influencer's follower through Redis, we can follow batching approach. With this way, we would only be doing ranking/averaging only after 'n' of updates.  
