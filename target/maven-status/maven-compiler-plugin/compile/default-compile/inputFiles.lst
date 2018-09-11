@@ -1,1 +1,8 @@
+/Users/ankurgoyal/IdeaProjects/affable/src/main/java/com/affable/connector/InfluxConnector.java
+/Users/ankurgoyal/IdeaProjects/affable/src/main/java/com/affable/connector/RedisConnector.java
+/Users/ankurgoyal/IdeaProjects/affable/src/main/java/com/affable/pojo/User.java
+/Users/ankurgoyal/IdeaProjects/affable/src/main/java/com/affable/connector/CassandraConnector.java
+/Users/ankurgoyal/IdeaProjects/affable/src/main/java/com/affable/consumer/AnalyticsConsumer.java
+/Users/ankurgoyal/IdeaProjects/affable/src/main/java/com/affable/producer/RecordProducer.java
 /Users/ankurgoyal/IdeaProjects/affable/src/main/java/com/affable/consumer/DBConsumer.java
+/Users/ankurgoyal/IdeaProjects/affable/src/main/java/com/affable/connector/CassandraWriterAsync.java

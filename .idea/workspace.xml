@@ -3,26 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="62c9da27-b59e-4582-8d02-cade22dc9c3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/affable/connector/CassandraConnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/affable/connector/CassandraWriterAsync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/affable/connector/InfluxConnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/affable/connector/RedisConnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/affable/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/affable/producer/RecordProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/affable/request/MockstagramRequester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/affable/consumer/AnalyticsConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/affable/consumer/AnalyticsConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/affable/consumer/DBConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/affable/consumer/DBConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/connector/CassandraConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/connector/CassandraWriterAsync$IngestCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/connector/CassandraWriterAsync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/connector/InfluxConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/connector/RedisConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/consumer/AnalyticsConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/consumer/DBConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/producer/RecordProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/request/MockstagramRequester$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/request/MockstagramRequester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/affable/connector/RedisConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/affable/connector/RedisConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/affable-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/affable-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/affable/connector/RedisConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/affable/connector/RedisConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/affable-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/affable-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/affable-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/affable-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,25 +40,25 @@
         <counts>
           <entry key="0-SNAPSHOT" value="1" />
           <entry key="class" value="7" />
-          <entry key="java" value="20" />
+          <entry key="java" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="23" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8117" />
+          <entry key="java" value="8324" />
           <entry key="xml" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8117" />
+          <entry key="JAVA" value="8324" />
           <entry key="XML" value="38" />
         </counts>
       </usages-collector>
@@ -87,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/consumer/DBConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+            <state relative-caret-position="1200">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,13 +88,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/connector/InfluxConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/consumer/AnalyticsConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="63" column="59" lean-forward="true" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+            <state relative-caret-position="375">
+              <caret line="111" column="46" lean-forward="true" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/connector/RedisConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -139,8 +145,9 @@
         <option value="$PROJECT_DIR$/com/affable/producer/RecordProducer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/com/affable/request/MockstagramRequester.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/affable/consumer/AnalyticsConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/affable/consumer/DBConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/affable/consumer/AnalyticsConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/affable/connector/RedisConnector.java" />
       </list>
     </option>
   </component>
@@ -521,6 +528,12 @@
               <item name="com.affable" type="1f31426a:PackageElementNode" />
               <item name="connector" type="1f31426a:PackageElementNode" />
             </path>
+            <path>
+              <item name="affable" type="58d84e3e:PackageViewProjectNode" />
+              <item name="affable" type="616d4139:PackageViewModuleNode" />
+              <item name="com.affable" type="1f31426a:PackageElementNode" />
+              <item name="consumer" type="1f31426a:PackageElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -568,7 +581,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536609768714" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536626022768" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -654,12 +667,21 @@
       <workItem from="1536412993656" duration="2704000" />
       <workItem from="1536416494247" duration="34932000" />
       <workItem from="1536601736512" duration="398000" />
-      <workItem from="1536602174969" duration="4094000" />
+      <workItem from="1536602174969" duration="5409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46906000" />
+    <option name="totallyTimeSpent" value="48221000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -679,13 +701,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Problems" order="8" weight="0.32961586" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.3283767" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.3283767" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -891,6 +913,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/consumer/DBConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/connector/InfluxConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/connector/CassandraConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -900,21 +939,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/consumer/AnalyticsConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="63" column="59" lean-forward="true" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+        <state relative-caret-position="375">
+          <caret line="111" column="46" lean-forward="true" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/consumer/DBConsumer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/affable/connector/RedisConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
         </state>
       </provider>
     </entry>

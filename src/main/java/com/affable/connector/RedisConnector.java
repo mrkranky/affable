@@ -10,6 +10,7 @@ public class RedisConnector {
     public static final String DISTINCT_SCORE_KEY = "DISTINCT_SCORE";
     public static final String SORTED_SCORE_KEY = "SORTED_SCORE";
     public static final String FOLLOWER_AVERAGE_KEY = "FOLLOWER_AVERAGE";
+    public static final String SUSPICIOUS_KEY = "SUSPICIOUS";
 
 
     private Jedis client;
@@ -36,6 +37,13 @@ public class RedisConnector {
     }
 
     public void putRank(String user, String newScore) {
+
+        // check if the user is suspicious
+        // a suspicious user should not affect ranking
+        if (client.hexists(SUSPICIOUS_KEY, user)) {
+            return;
+        }
+
         // get the old followerCount of the user
         String oldScore = client.hget(USER_TO_SCORE_KEY, user);
 
