@@ -64,13 +64,11 @@ public class DBConsumer {
             }
 
             num = num + consumerRecords.count();
-            List<String> batch = new ArrayList<>();
+            Map<String, String> batch = new HashMap<>();
 
             List<Object[]> bindedUsers = new ArrayList<>();
 
             consumerRecords.forEach(record -> {
-                batch.add(record.value());
-
                 // insert the record into cassandra
                 User user = gson.fromJson(record.value(), User.class);
 
@@ -78,6 +76,8 @@ public class DBConsumer {
                         user.getFollowerCount(), user.getFollowingCount(), user.getTimestamp(), user.getPk()};
 
                 syncWriter(updateQuery, bind, cassandraClient);
+
+                batch.put(user.getPk().toString(), record.value());
 
                 //bindedUsers.add(bind);
             });
