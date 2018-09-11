@@ -36,7 +36,7 @@ Install/configure InfluxDB and create database, retention policy
 
 ## Architecture
 
-Please read the [WIKI](https://github.com/mrkranky/affable/wiki) for this part of details
+Please read the [WIKI](https://github.com/mrkranky/affable/wiki/Design-and-Architecture) for this part of details
 
 ## Benchmarks
 Benchmarking on -
