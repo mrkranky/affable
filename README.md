@@ -52,17 +52,15 @@ Macbook Air
    
    `Ranking and Influx: 700 writes/sec`
 
-2. With two instances of each consumer -
+2. With two instances of DBConsumer -
    
    `Cassandra Writing: 1500 writes/sec`
-   
-   `Ranking and Influx: 1300 writes/sec`
    
 3. Making cassandra writes as asynchronous, increased writing performance by 33 percent.
 
 ## Scaling
 
-Increasing consumer instances, increases computing capabilities of both the consumers.
+Increasing consumer instances, increases computing capability of the consumers.
 
 Ideally the number of topic partitions should be equal to number of consumer instances and both can scale pretty easily.
 
